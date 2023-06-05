@@ -5,7 +5,7 @@ const Main = () => {
   return (
     <div id="main">
     <Navbar/>
-    <h1>hello</h1>
+    
   </div>
   );
 };
