@@ -4,7 +4,7 @@ import FlexRow from "./FlexRow";
 
 const FlexDirection = () => {
     return (
-        <div>
+        <div id="flexDirection">
             <FlexRow/>
             <FlexColumn/>
         </div>

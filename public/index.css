@@ -13,6 +13,7 @@ body {
 
 #app {
   height: 100%;
+  overflow-y: scroll;
   /* display: flex;
   flex-direction: column;
   justify-content: center; */
@@ -44,7 +45,7 @@ body {
 
 .title {
   font-family: 'Bebas Neue', sans-serif;
-  margin-left: 30%;
+  margin-left: 5%;
   margin-bottom: 0;
   
 }
@@ -58,21 +59,21 @@ body {
 /* flex-direction */
 
 #flexRow {
-  border: 4px solid rgb(167, 106, 40);
+  border: 4px solid black;
   border-radius: 5px;
   padding:5px;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
   display: flex;
   justify-content: center;
 }
 
 #flexColumn {
-  border: 4px solid rgb(167, 106, 40);
+  border: 4px solid black;
   border-radius: 5px;
   padding:5px;
-  margin-left: 42%;
-  margin-right: 42%;
+  margin-left: 5%;
+  margin-right: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -84,21 +85,44 @@ body {
   
 }
 
+#flexDirection {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+/* Justify-content */
+
+#jcFlexStart {
+  border: 4px solid black;
+  border-radius: 5px;
+  padding:5px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
 /* Media */
 @media screen and (max-width: 1200px){
   .plants {
     height:7rem;
   }
 
-  #flexRow {
-    margin-left: 20%;
+  /* #flexRow {
+    margin-left: 0%;
     margin-right: 20%;
-  }
+  } */
 
-  #flexColumn {
+  /* #flexColumn {
     margin-left: 40%;
     margin-right: 40%;
-  }
+  } */
 
   #flexColumn img {
     width:7rem;
