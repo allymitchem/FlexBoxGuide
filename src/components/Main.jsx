@@ -1,12 +1,13 @@
 import React from "react";
-import {Navbar, FlexRow} from './'
+import {Navbar, FlexRow, FlexColumn} from './'
 
 const Main = () => {
   return (
     <div id="main">
     <Navbar/>
     <FlexRow/>
-  </div>
+    <FlexColumn/>
+    </div>
   );
 };
 
