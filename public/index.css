@@ -142,6 +142,17 @@ body {
   align-items: center;
 }
 
+#jcSpaceAround {
+  border: 4px solid black;
+  border-radius: 5px;
+  padding:5px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 /* Media */
 @media screen and (max-width: 1200px){
   .plants {
