@@ -120,6 +120,17 @@ body {
   align-items: center;
 }
 
+#jcCenter {
+  border: 4px solid black;
+  border-radius: 5px;
+  padding:5px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Media */
 @media screen and (max-width: 1200px){
   .plants {
