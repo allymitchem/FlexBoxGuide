@@ -8,6 +8,7 @@ body {
   width: 100vw;
   margin: 0;
   background-color: #b5d5ca;
+
   /* background-color: black; */
 }
 
@@ -106,6 +107,17 @@ body {
   justify-content: flex-start;
   align-items: center;
 
+}
+
+#jcFlexEnd {
+  border: 4px solid black;
+  border-radius: 5px;
+  padding:5px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 /* Media */
