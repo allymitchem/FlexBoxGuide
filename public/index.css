@@ -215,6 +215,37 @@ body {
  height:98%;
 }
 
+#acSpaceBetween {
+  border: 4px solid black;
+  border-radius: 5px;
+  height:40rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+#acSpaceBetween img {
+  height:7rem;
+}
+
+#acSpaceAround {
+  border: 4px solid black;
+  border-radius: 5px;
+  height:40rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+#acSpaceAround img {
+
+ height:7rem;
+}
+
 /* Media */
 @media screen and (max-width: 1200px){
   .plants {
@@ -238,6 +269,14 @@ body {
   #acStretch img {
     /* height: 85%; */
     width:7rem;
+  }
+
+  #acSpaceBetween img {
+    height:5rem;
+  }
+
+  #acSpaceAround img {
+    height:5rem;
   }
 }
 
