@@ -189,6 +189,16 @@ body {
   align-content: flex-end;
 }
 
+#acCenter {
+  border: 4px solid black;
+  border-radius: 5px;
+  height:12rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
 
 /* Media */
 @media screen and (max-width: 1200px){
