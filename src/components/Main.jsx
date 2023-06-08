@@ -1,5 +1,5 @@
 import React from "react";
-import {Navbar, FlexDirection, JustifyContent, AlignContent} from './'
+import {Navbar, FlexDirection, JustifyContent, AlignContent, AlignItems} from './'
 
 const Main = () => {
   return (
@@ -8,6 +8,7 @@ const Main = () => {
     <FlexDirection/>
     <JustifyContent/>
     <AlignContent/>
+    <AlignItems/>
     </div>
   );
 };
