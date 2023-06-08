@@ -259,8 +259,18 @@ body {
   align-items: flex-start;
 }
 
-#aiFlexStart img {
+#aiFlexStart img, #aiFlexEnd img {
   height:7rem;
+}
+
+#aiFlexEnd {
+  border: 4px solid black;
+  border-radius: 5px;
+  height:15rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  align-items: flex-end;
 }
 
 
@@ -290,12 +300,14 @@ body {
     width:6rem;
   }
 
-  #acSpaceBetween img {
+  #acSpaceBetween img, #acSpaceAround img {
     height:5rem;
   }
 
-  #acSpaceAround img {
-    height:5rem;
+  
+
+  #aiFlexStart img, #aiFlexEnd img {
+    height:4.5rem;
   }
 }
 
