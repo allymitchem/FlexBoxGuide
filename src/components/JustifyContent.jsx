@@ -2,7 +2,7 @@ import React from "react";
 
 const JustifyContent = () => {
     return (
-        <div>
+        <div class="justifyContent">
             <div>
                 <h2 class="title">justify-content: flex-start</h2>
                 <div id="jcFlexStart">
