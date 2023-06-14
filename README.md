@@ -1,5 +1,5 @@
 # flexboxGuide 🪴
-Visual guide for CSS flexbox layouts.
+Visual guide for CSS flexbox layouts using cute little plants.
 ## Technologies Used
 * React
 * Node.js
