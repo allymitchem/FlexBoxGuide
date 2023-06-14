@@ -288,8 +288,9 @@ flex-wrap: wrap;
   margin-right: 5%;
   display: flex;
   align-items: flex-start;
+  /* width:45rem;
+} */
 }
-
 .alignItems img{
   height:7rem;
 }
@@ -302,6 +303,7 @@ flex-wrap: wrap;
   margin-right: 5%;
   display: flex;
   align-items: flex-end;
+  /* width:45rem; */
 }
 
 #aiCenter {
@@ -312,6 +314,21 @@ flex-wrap: wrap;
   margin-right: 5%;
   display: flex;
   align-items: center;
+}
+
+#aiStretch {
+  border: 3px dotted black;
+  border-radius: 5px;
+  height:15rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  align-items: stretch;
+}
+
+#aiStretch img {
+  height:auto;
+  width:7rem;
 }
 
 /* align-self */
@@ -368,6 +385,7 @@ padding-bottom: 0;
 
   #flexDirection {
     margin:5%;
+    padding-right:5%;
   }
 
 
@@ -379,7 +397,7 @@ padding-bottom: 0;
     margin: 5%;
     /* display: flex;
     flex-wrap:wrap; */
-    padding:10%;
+    padding-right:10%;
   }
 
   #jcFlexStart, #jcFlexEnd, #jcCenter, #jcSpaceBetween, #jcSpaceAround, #jcSpaceEvenly {
@@ -391,6 +409,28 @@ padding-bottom: 0;
     /* height:3rem; */
     width:5rem;
   }
+
+  .alignItems {
+    padding-right:10%;
+   
+  }
+
+  #aiFlexStart, #aiFlexEnd, #aiCenter, #aiStretch {
+  width: 25rem;
+  /* margin-right: 20%; */
+  }
+
+  #aiFlexStart img, #aiFlexEnd img {
+    width: 5rem;
+   
+  }
+  #aiCenter img {
+    height :4rem;
+  }
+   #aiStretch img {
+    width:4rem;
+  }
+
 
   #acSpaceBetween img, #acSpaceAround img {
     height:3rem;
