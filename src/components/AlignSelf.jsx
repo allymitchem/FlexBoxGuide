@@ -2,7 +2,9 @@ import React from "react";
 
 const AlignSelf = () => {
     return (
-        <div>
+        <>
+        <h2 class="sectionTitle">align-self</h2>
+        <div class="alignSelf">
             
                 <h2 class="title">align-self: stretch</h2>
             <div class="alignSelfParent">
@@ -37,6 +39,7 @@ const AlignSelf = () => {
                 
             </div>
         </div>
+        </>
     )
 }
 

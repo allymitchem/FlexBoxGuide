@@ -2,6 +2,8 @@ import React from "react";
 
 const JustifyContent = () => {
     return (
+        <>
+        <h2 class="sectionTitle">justify-content</h2>
         <div class="justifyContent">
             <div>
                 <h2 class="title">justify-content: flex-start</h2>
@@ -53,6 +55,7 @@ const JustifyContent = () => {
             </div>
 
         </div>
+        </>
     )
 }
 

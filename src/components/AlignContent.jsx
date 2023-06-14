@@ -2,7 +2,9 @@ import React from "react";
 
 const AlignContent = () => {
     return (
-       <div>
+        <>
+        <h2 class="sectionTitle">align-content</h2>
+       <div className="alignContent">
             <div>
                 <h2 class="title">align-content: flex-start</h2>
                 <div id="acFlexStart">
@@ -161,6 +163,7 @@ const AlignContent = () => {
                 </div>
             </div> 
         </div>
+        </>
     )
 }
 
