@@ -2,6 +2,8 @@ import React from "react";
 
 const AlignSelf = () => {
     return (
+        <>
+        <h2 class="sectionTitle">align-self</h2>
         <div class="alignSelf">
             
                 <h2 class="title">align-self: stretch</h2>
@@ -37,6 +39,7 @@ const AlignSelf = () => {
                 
             </div>
         </div>
+        </>
     )
 }
 

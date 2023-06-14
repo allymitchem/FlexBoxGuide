@@ -2,6 +2,8 @@ import React from "react";
 
 const AlignItems = () => {
     return (
+        <>
+        <h2 class="sectionTitle">align-items</h2>
         <div class="alignItems">
             <div>
                 <h2 class="title">align-items: flex-start</h2>
@@ -56,6 +58,7 @@ const AlignItems = () => {
 
 
         </div>
+        </>
     )
 }
 
