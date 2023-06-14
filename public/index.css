@@ -332,10 +332,22 @@ flex-wrap: wrap;
 }
 
 /* align-self */
+
+.alignSelf {
+ /* border:1px solid red; */
+ display:flex;
+ flex-direction: column;
+ margin:10%;
+ background-color: rgba(245, 245, 245, 0.157);
+ border-radius: 10px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(5px);
+}
+
 .alignSelfParent {
   display: flex;
   height:14rem;
-  border: 4px solid black;
+  border: 3px dotted black;
   border-radius: 5px;
   padding:5px;
   margin-left: 5%;
@@ -352,10 +364,11 @@ flex-wrap: wrap;
   /* display: flex; */
   align-self: stretch;
   
+  
 }
 
 #alignSelfStretch img {
-height:11rem;
+height:12rem;
 padding-bottom: 0;
 }
 
