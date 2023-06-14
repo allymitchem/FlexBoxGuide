@@ -7,6 +7,7 @@ body {
   width: 100vw;
   margin: 0;
   /* background-color: #c0efdec2; */
+  /* background-color: rgb(228, 195, 171); */
   background-color: whitesmoke;
 }
 
@@ -88,8 +89,8 @@ body {
   justify-content: center;
   align-items: center;
   /* border: 1px solid ; */
-  background-color: rgba(250, 245, 245, 0.439);
-  border-radius: 10px;
+  background-color: rgba(245, 245, 245, 0.157);
+  border-radius: 5px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   margin:15%;
@@ -105,7 +106,7 @@ body {
 flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: rgba(250, 245, 245, 0.439);
+  background-color: rgba(250, 245, 245, 0.593);
   border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -337,19 +338,7 @@ padding-bottom: 0;
 
 /* Media */
 @media screen and (max-width: 1200px){
-  /* .plants {
-    height:7rem;
-  } */
-
-  /* #flexRow {
-    margin-left: 0%;
-    margin-right: 20%;
-  } */
-
-  /* #flexColumn {
-    margin-left: 40%;
-    margin-right: 40%;
-  } */
+  
 
   #flexDirection {
     margin:3%;
@@ -360,10 +349,20 @@ padding-bottom: 0;
     width:6rem;
   }
 
+  .justifyContent {
+    margin: 3%;
+    display: flex;
+    padding-right:10%;
+  }
 
-  #jcCenter img, #jcSpaceBetween img, #jcSpaceAround img, #jcSpaceEvenly img, #acStretch img , #acCenter img, #acFlexStart img, #acFlexEnd img{
-  
-    width:6rem;
+  #jcFlexStart, #jcFlexEnd, #jcCenter, #jcSpaceBetween, #jcSpaceAround, #jcSpaceEvenly {
+    width:28rem;
+    
+  }
+
+  #jcFlexStart img , #jcFlexEnd img, #jcCenter img, #jcSpaceBetween img, #jcSpaceAround img, #jcSpaceEvenly img, #acStretch img , #acCenter img, #acFlexStart img, #acFlexEnd img{
+    /* height:3rem; */
+    width:5rem;
   }
 
   #acSpaceBetween img, #acSpaceAround img {
