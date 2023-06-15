@@ -203,6 +203,7 @@ flex-wrap: wrap;
  
     display:flex;
   flex-wrap: wrap;
+  flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 242, 242, 0.401);
@@ -216,7 +217,7 @@ flex-wrap: wrap;
   
 }
 .alignContent img {
-  width:6rem;
+  width:5rem;
 }
 #acFlexStart {
   border: 3px dotted black;
